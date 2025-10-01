@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #faf7f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+  background: #6b1d1d;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+nav h1 {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+  color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a') center/cover;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #6b1d1d;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  margin: 0.3rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn.secondary {
+  background: #ffd700;
+  color: #000;
+}
+
+/* Content Sections */
+.content, .intro {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+h2, h3 {
+  color: #6b1d1d;
+}
+
+/* Forms */
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background: #6b1d1d;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+form button:hover {
+  background: #500f0f;
+}
+
+/* Footer */
+footer {
+  background: #6b1d1d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
